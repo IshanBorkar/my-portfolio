@@ -6,7 +6,7 @@
 
    ### Contact
    ![image](https://github.com/user-attachments/assets/71b792cb-29b9-4eca-bb38-b2f99e29b5f0) ishan123ppp@gmail.com
-  ![image](https://github.com/user-attachments/assets/ad144e57-31f2-4638-8590-373583e3692f) 8600313943 
+  ![image](https://github.com/user-attachments/assets/ad144e57-31f2-4638-8590-373583e3692f) **8600313943** 
    ![image](https://github.com/user-attachments/assets/7aff1900-eef7-473d-b4bf-064ad6136fbf) [LinkedIn](https://www.linkedin.com/in/ishan-borker-2b323364/)
    ![image](https://github.com/user-attachments/assets/d42d4e8e-be72-4dd7-93c1-7e551820c571) [GitHub](https://github.com/IshanBorkar)
 
