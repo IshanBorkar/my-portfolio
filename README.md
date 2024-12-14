@@ -155,6 +155,10 @@ Capabilities of Perplexity.AI: Working on improving prompt caching, dynamic upda
 
 ●	B.E. Computer Engineering at Goa College of Engineering (Goa University), 2011 –2015, 70%
 
+● HSSC at GOA BOARD, 2010 - 2011, 74%
+
+● SSC at GOA BOARD, 2008 - 2009, 82.17%
+
 # CERTIFICATIONS
 
 ●	Automate the Boring Stuff with Python Programming by Udemy
