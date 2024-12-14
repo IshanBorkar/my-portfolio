@@ -1,18 +1,18 @@
   # Ishan P. Borker
    ![Passport 1](https://github.com/user-attachments/assets/c667913b-ab93-4804-b120-c8c5d1d0410b)
 
-   ![image](https://github.com/user-attachments/assets/b33697b1-a354-411e-8ea3-2821b94b44c8) Panaji, Goa, India
+   ![image](https://github.com/user-attachments/assets/727559ae-d339-4fd3-8e25-1b98876cf39a) "ABHA", H.N. 1794, Walkeshwar Wada, Betim, Bardez, Goa, India - 403101
 
 
-   ### Contact:
+   ### Contact
    ![image](https://github.com/user-attachments/assets/71b792cb-29b9-4eca-bb38-b2f99e29b5f0) ishan123ppp@gmail.com
   ![image](https://github.com/user-attachments/assets/ad144e57-31f2-4638-8590-373583e3692f) 8600313943 
    ![image](https://github.com/user-attachments/assets/7aff1900-eef7-473d-b4bf-064ad6136fbf) [LinkedIn](https://www.linkedin.com/in/ishan-borker-2b323364/)
    ![image](https://github.com/user-attachments/assets/d42d4e8e-be72-4dd7-93c1-7e551820c571) [GitHub](https://github.com/IshanBorkar)
 
-  Languages: English, Hindi, Konkani, Marathi, Sanskrit, Japanese (Basic)
+ ![image](https://github.com/user-attachments/assets/3312f557-5eed-47d6-87bf-b3204b9558f2) English, Hindi, Konkani, Marathi, Sanskrit, Japanese (Basic)
   
-  ### About Me
+  # About Me
 I have a total experience of more than 7 years in software development of various platforms like Python, data science, machine learning, natural language processing (NLP), research and development, C++, FastAPI, MySQL, Tableau, Network Service Orchestration. 
 
 It includes 6+ years of Machine Learning experience plus 7+ years of business experience.
