@@ -12,6 +12,8 @@
 
 ![image](https://github.com/user-attachments/assets/1c1a2b46-b43d-4fc7-a65e-0ee1f6b2297c)
  English, Hindi, Konkani, Marathi, Sanskrit, Japanese (Basic)
+
+ DOB: 11/08/1993
   
   # About Me
 I have a total experience of more than 7 years in software development of various platforms like Python, data science, machine learning, natural language processing (NLP), research and development, C++, FastAPI, MySQL, Tableau, Network Service Orchestration. 
