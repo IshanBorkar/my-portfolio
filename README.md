@@ -1,5 +1,4 @@
   # Ishan P. Borker
-   ![Passport 1](https://github.com/user-attachments/assets/c667913b-ab93-4804-b120-c8c5d1d0410b)
 
    ![image](https://github.com/user-attachments/assets/727559ae-d339-4fd3-8e25-1b98876cf39a) "ABHA", H.N. 1794, Walkeshwar Wada, Betim, Bardez, Goa, India - 403101
 
@@ -38,27 +37,30 @@ RAG, LangChain, LLM, AWS Chatbot, Amazon Bedrock, BrowserBase, Perplexity.AI
 
 ## 2. Machine Learning: 
 
+Python, FastAPI, Data Science, Supervised Learning, Unsupervised Learning, Computer Vision, NLP, Linear and Logistic Regression, Clustering algorithms, Decision Trees, Neural Networks, Reinforcement Learning, Feature engineering, Statistical analysis
+
+## 3. Machine Learning Libraries: 
 Tensorflow, Keras, SpaCy, PyPDF, PyLDAVis, BERTopic, NLTK
 
-## 3. Algorithms:
+## 4. Algorithms:
 
 Classification, Regression, Clustering, Time series forecasting, Yolov3, Yolov4, OpenCV, Mask R-CNN, Faster R-CNN, Named Entity Recognition, Relationship Extraction, Topic Modelling, Latent Dirichlet, Allocation, Fasttext
 
-## 4. Other Skills:
+## 5. Other Skills:
 
-Actionable Web Technologies, JSON, HTML, JS, PHP, Curl commands, Unix/Linux commands, Golang, 
+Actionable Web Technologies, JSON, HTML, JS, PHP, Curl commands, Unix/Linux commands, Golang 
 
-## 5. OS: 
+## 6. OS: 
 Linux/Unix, Windows, macOS
 
-## 6. Database/BI tools: 
+## 7. Database/BI tools: 
 MySQL, SpagoBI, Tableau, PowerBI, Navicat, GNU-Plot
 
-## 7. Python Libraries:
+## 8. Python Libraries:
 NumPy, Pandas, SciPy, Seaborn, Scikit-learn, Plotly-dash, Matplotlib
 
-## 8. Tools/Environments:
-EMS, Crosswork Workflow Manager (CWM), Network Service Orchestration (NSO), Lux, Jupyter Notebook, Google Colaboratory, Kaggle Notebook, VSCode, PyCharm, Spyder, GitHub, Amazon EC2, Azure ML Studio, POSTMAN, Swagger UI, GitHub Copilot, AWS Code Whisperer, SonarQube
+## 9. Tools/Environments:
+EMS, Crosswork Workflow Manager (CWM), Network Service Orchestration (NSO), Lux, Jupyter Notebook, Google Colaboratory, Kaggle Notebook, VSCode, PyCharm, Spyder, GitHub, Amazon EC2, Azure ML Studio, POSTMAN, Swagger UI, GitHub Copilot, AWS Code Whisperer, SonarQube, Docker
 
 # WORK EXPERIENCE
 ## Persistent Systems, Verna, Goa as Lead Software Engineer, May 2022 - Present 
