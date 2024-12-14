@@ -4,77 +4,30 @@
   <title>Ishan P. Borker</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-zR2Th8y/Q5T3GT+7Q4y291j8uZuIVcYZACsbH5ZReK1G5u9GV6ozqF7QO7PDi9T8Inj+A489aQFzD3/2e+N/0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   <style>
-    body {
-      background-color: purple;
-      font-family: Arial, sans-serif;
-      margin: 0;
-    }
-
-    .container {
-      text-align: center;
-      padding: 50px;
-      max-width: 600px;
-      margin: 0 auto;
-      background-color:#b82727;
-      border-radius: 10px;
-    }
-
-    h1 {
-      margin-bottom: 20px;
-    }
-
-    img {
-      border-radius: 50%;
-    }
-
-    .contact-info {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      margin-bottom: 20px;
-    }
-
-    .contact-info i {
-      font-size: 24px;
-      margin-right: 10px;
-    }
-
-    .contact-info a {
-      color: #007bff;
-      text-decoration: none;
-    }
-
-    .contact-info a:hover {
-      color: #0056b3;
-    }
-  </style>
-  <style>
     /* Your CSS styles here */
-    .about-me {
-      display: none;
+    .key-skills {
+      display: none; /* Initially hidden */
     }
 
-    .show-about {
+    .show-skills {
       cursor: pointer;
     }
   </style>
   <script>
-    function toggleAbout() {
-      var aboutSection = document.getElementById("about-me");
-      if (aboutSection.style.display === "none") {
-        aboutSection.style.display = "block";
+    function toggleSkills() {
+      var skillsSection = document.getElementById("key-skills");
+      if (skillsSection.style.display === "none") {
+        skillsSection.style.display = "block";
       } else {
-        aboutSection.style.display = "none";
+        skillsSection.style.display = "none";
       }
     }
   </script>
 </head>
 <body>
   <div class="container">
-    <section>
-      <h1>Ishan P. Borker</h1>
-      <img src="https://github.com/IshanBorkar/ishanborker.github.io/blob/main/Passport1.jpg" width="300" height="300" alt="Passport_Size_Photo">
-    </section>
+    <h1>Ishan P. Borker</h1>
+    <img src="https://github.com/IshanBorkar/ishanborker.github.io/blob/main/Passport1.jpg" width="300" height="300" alt="Passport_Size_Photo">
 
     <section class="contact-info">
       <a href="mailto:ishan123ppp@gmail.com"><i class="fa-solid fa-envelope"></i> Email</a>
@@ -88,14 +41,141 @@
       <i class="fa-solid fa-home"></i> <b> ABHA, H.N. 1794, Walkeshwar Wada, Betim, Bardez, Goa - 403101</b>
     </section>
 
-    <section class="contact-info">
+    <section>
+      <button class="show-skills" onclick="toggleSkills()">Key Skills</button>
+    </section>
+
+    <section id="key-skills" class="key-skills">
+      <h2>Key Skills</h2>
+      <h3>Generative AI</h3>
+      <ul>
+        <li>Prompt Engineering</li>
+        <li>RAG</li>
+        <li>Text Generation</li>
+        <li>LangChain</li>li>
+        <li>LLM</li>
+        <li>AWS Chatbot</li>
+        <li>Amazon Bedrock></li>
+        <li>BrowserBase</li>
+        <li>Perlexity.AI</li>
+      </ul>
+
+      <h3>Machine Learning</h3>
+      <ul>
+        <li>Supervised Learning</li>
+        <li>Unsupervised Learning</li>
+        <li>Reinforcement Learning</li>
+        <li>Python</li>
+        <li>FastAPI</li>
+        <li>Data Science</li>
+        <li>Computer Vision</li>
+        <li>NLP</li>
+        <li>Linear and Logistic Regression</li>
+        <li>Clustering algorithms</li>
+        <li>Decision Trees</li>
+        <li>Neural Networks</li>
+        <li>Feature engineering</li>
+        <li>Statistical analysis</li>
+      </ul>
+
+      <h3>Machine Learning Libraries</h3>
+      <ul>
+        <li>Tensorflow</li>
+        <li>Keras</li>
+        <li>SpaCy</li>
+        <li>PyPDF</li>
+        <li>PyLDAVis</li>
+        <li>BERTopic</li>
+        <li>NLTK</li>
+
+      </ul>
+
+      <h3>Algorithms</h3>
+      <ul>
+         <li>Classification</li>
+         <li>Regression</li>
+         <li>Clustering</li>
+         <li>Time series forecasting</li>
+         <li>Yolov3</li>
+         <li>Yolov4</li>
+         <li>OpenCV</li>
+         <li>Mask R-CNN</li>
+         <li>Faster R-CNN</li>
+         <li>Named Entity Recognition</li>
+         <li>Relationship Extraction</li>
+         <li>Topic Modelling </li>
+         <li>Latent Dirichlet Allocation</li>
+         <li>Fasttext </li>
+
+      </ul>
+      
+      <h3>Other Skills</h3>
+      <ul>
+        <li>Actionable Web Technologies</li>
+        <li>JSON</li>
+        <li>HTML</li>
+        <li>JS</li>
+        <li>PHP </li>
+        <li>Curl commands</li>
+        <li>Unix/Linux commands</li>
+        <li>Golang</li>
+
+      </ul>
+
+      <h3>Database/BI Tools</h3>
+      <ul>
+        <li>SQL</li>
+        <li>MySQL</li>
+        <li>Navicat</li>
+        <li>Tableau</li>
+        <li>Power BI</li>
+        <li>GNU-Plot</li>
+        <li>SpagoBI</li>
+      </ul>
+
+      <h3>Python Libraries</h3>
+      <ul>
+        <li>NumPy</li>
+        <li>Pandas</li>
+        <li>Matplotlib</li>
+        <li>Seaborn</li>
+        <li>SciPy</li>
+        <li>Plotly-dash</li>
+        <li>Sci-kit learn</li>
+
+      </ul>
+
+      <h3>Tools/Environments</h3>
+      <ul>
+        <li>Jupyter Notebook</li>
+        <li>Google Colab</li>
+        <li>Kaggle Notebook </li>
+        <li>GitHub</li>
+        <li>Docker</li>
+        <li>EMS</li>
+        <li>Crosswork Workflow Manager (CWM)</li>
+        <li>Network Service Orchestration (NSO)</li>
+        <li>Lux</li>
+        <li>VSCode</li>
+        <li>PyCharm</li>
+        <li>Spyder </li>
+        <li>Amazon EC2</li>
+        <li>Azure ML Studio </li>
+        <li> POSTMAN </li>
+        <li>Swagger UI</li>
+        <li>GitHub Copilot </li>
+        <li>AWS Code Whisperer</li>
+        <li>SonarQube</li>
+      </ul>
+    </section>
+
+    <section>
       <a href="https://github.com/IshanBorkar/ishanborker.github.io/blob/main/IshanBorker_Resume.pdf" target="_blank"><i class="fa-solid fa-file-pdf"></i> Resume</a>
     </section>
-    
+
     <section>
       <button onclick="window.location.href='about_me.html'">About Me</button>
     </section>
-    
   </div>
 </body>
 </html>
