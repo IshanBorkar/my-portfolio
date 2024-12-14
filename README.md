@@ -1,6 +1,9 @@
   # Ishan P. Borker
    ![Passport 1](https://github.com/user-attachments/assets/c667913b-ab93-4804-b120-c8c5d1d0410b)
 
+   ![image](https://github.com/user-attachments/assets/b33697b1-a354-411e-8ea3-2821b94b44c8) Panaji, Goa, India
+
+
    ### Contact:
    ![image](https://github.com/user-attachments/assets/71b792cb-29b9-4eca-bb38-b2f99e29b5f0) ishan123ppp@gmail.com
   ![image](https://github.com/user-attachments/assets/ad144e57-31f2-4638-8590-373583e3692f) 8600313943 
@@ -9,10 +12,6 @@
 
   Languages: English, Hindi, Konkani, Marathi, Sanskrit, Japanese (Basic)
   
-  Date of Birth: 11/08/1993
-  
-  Address: “ABHA”, H.N.1794, Walkeshwar Wada, Betim, Bardez, Goa - 403101
-
   ### About Me
 I have a total experience of more than 7 years in software development of various platforms like Python, data science, machine learning, natural language processing (NLP), research and development, C++, FastAPI, MySQL, Tableau, Network Service Orchestration. 
 
