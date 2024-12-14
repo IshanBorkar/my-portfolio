@@ -22,7 +22,7 @@ Part of the role includes analyzing requirements, architecting the entire applic
 
 I have an experience studying client requirements and recommending algorithms to be used. 
 
-Also, in-depth experience handling feature engineering and creating visualizations.
+Also, in-depth experience in handling feature engineering and creating visualizations.
 
 I have also worked in end-to-end delivery of project from the proposal stage, requirements gathering, assisting in design, implementation, technical documentation, excellent understanding of customer engagement and delivery.
 
