@@ -1,65 +1,108 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>Certifications</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      background-image: url("Certifications.jpg");
-      margin: 0;
-    }
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Certifications</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-image: url("Certifications.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
 
-    .container {
-      text-align: center;
-      padding: 50px;
-      max-width: 600px;
-      margin: 0 auto;
-      background-color: #4cadac;
-      border-radius: 10px;
-    }
+        .container {
+            background-color: rgba(255, 255, 255, 0.9); /* White background with some transparency */
+            max-width: 800px;
+            margin: 50px auto;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
 
-    .back-button {
-      text-align: center;
-      margin-top: 20px;
-    }
-  </style>
+        h1 {
+            color: #007bff;
+            margin-bottom: 20px;
+        }
+
+        ol {
+            text-align: left;
+            padding-left: 20px;
+        }
+
+        li {
+            margin-bottom: 10px;
+        }
+
+        .certification-link {
+            color: #007bff;
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+
+        .certification-link:hover {
+            color: #0056b3;
+        }
+
+        .back-button {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+
+        .back-button:hover {
+            background-color: #0056b3;
+        }
+    </style>
 </head>
 <body>
-  <div class="container">
-    <h1>Certifications</h1>
-    <ol>
-      <li><a href="https://udemy-certificate.s3.amazonaws.com/pdf/UC-91226f48-8ecf-4ed2-a005-c0dcc96dd689.pdf" target="_blank" class="certification-link">Automate the Boring Stuff with Python Programming by Udemy</li>
-      <li><a href="https://udemy-certificate.s3.amazonaws.com/pdf/UC-a5f18bed-4ed0-4d07-bfb6-7b07b4c4f82b.pdf" target="_blank" class="certification-link">Complete Python Bootcamp 2024: Zero to Expert in Python by Udemy</li>
-      <li><a href="https://udemy-certificate.s3.amazonaws.com/pdf/UC-bc99ad8c-fffb-4390-b92d-78b788c5c250.pdf" target="_blank" class="certification-link">AWS SageMaker Practical for Beginners Build 6 Projects by Udemy </li>
-      <li><a href="https://udemy-certificate.s3.amazonaws.com/pdf/UC-20769ca0-aece-40bd-bd63-f0d30c101628.pdf" target="_blank" class="certification-link">MongoDB – The Complete Developer’s Guide 2024 by Udemy </li>
-      <li><a href="https://udemy-certificate.s3.amazonaws.com/pdf/UC-2feeee62-219c-4609-b9f5-8ecfaf056035.pdf" target="_blank" class="certification-link">Complete Tensorflow2 and Keras Deep Learning Bootcamp by Udemy </li>
-      <li><a href="https://udemy-certificate.s3.amazonaws.com/pdf/UC-7a651839-01a1-4e13-aed1-668d969adde4.pdf" target="_blank" class="certification-link">Taming Big Data with Apache Spark and Python – Hands-on by Udemy</li>
-      <li><a href="https://udemy-certificate.s3.amazonaws.com/pdf/UC-59b333b5-eadd-4e41-a7e0-c7e3201e838f.pdf" target="_blank" class="certification-link">Natural Language Processing with Python by Udemy </li>
-      <li><a href="https://udemy-certificate.s3.amazonaws.com/pdf/UC-6bbeada0-8dbb-4dbf-80eb-65e29fae0fa5.pdf" target="_blank" class="certification-link">Natural Language Processing with Transformers in Python by Udemy </li>
-      <li><a href="https://udemy-certificate.s3.amazonaws.com/pdf/UC-0e0ea112-2471-475b-8c7c-ff1f8507d2e3.pdf" target="_blank" class="certification-link">LangChain with Python Bootcamp by Udemy </li>
-      <li><a href="https://udemy-certificate.s3.amazonaws.com/pdf/UC-2c76bcb1-e4f1-4c8c-af71-df7d58c1d5b1.pdf" target="_blank" class="certification-link">REST APIs with Flask and Python in 2024 by Udemy </li>
-      <li><a href="https://udemy-certificate.s3.amazonaws.com/pdf/UC-e6d62cc4-3154-4e1d-a6bf-e898ba4add6f.pdf" target="_blank" class="certification-link">Python for Data Science and Machine Learning Bootcamp by Udemy </li>
-      <li><a href="https://udemy-certificate.s3.amazonaws.com/pdf/UC-3da141f4-e0fa-4943-9baf-f51655ed0ab3.pdf" target="_blank" class="certification-link">Complete Data Science, Machine Learning, DL, NLP Bootcamp by Udemy </li>
-      <li><a href="https://udemy-certificate.s3.amazonaws.com/pdf/UC-cacb0193-592b-4662-82c9-f1b6df63fcfc.pdf" target="_blank" class="certification-link">Git for Geeks: Quick Git Training for Developers by Udemy </li>
-      <li><a href="https://udemy-certificate.s3.amazonaws.com/pdf/UC-b7c719f4-d32e-4dff-aace-cdad9597cf01.pdf" target="_blank" class="certification-link">Amazon Bedrock & AWS Generative AI [Beginner to Advanced] by Udemy </li>
-      <li><a href="https://udemy-certificate.s3.amazonaws.com/pdf/UC-f68c504e-f6bc-480f-a6e1-239b0bf67cbe.pdf" target="_blank" class="certification-link">Generative AI: Beginner to Pro with OpenAI & Azure OpenAI  by Udemy </li>
-      <li><a href="https://udemy-certificate.s3.amazonaws.com/pdf/UC-c8f62eb7-0bb9-4753-ba30-bc3d1bfb4b67.pdf" target="_blank" class="certification-link">LangChain- Develop LLM powered applications with LangChain by Udemy </li>
-      <li><a href="https://media.licdn.com/dms/document/media/v2/D4D2DAQFUBiypauGjQQ/profile-treasury-document-pdf-analyzed/profile-treasury-document-pdf-analyzed/0/1714662952705?e=1735171200&v=beta&t=3CcipYdgTPDRlCLWZI2RAOwWiCKgzTUgCiDR6u-7bEs" target="_blank" class="certification-link">Generative AI for Practitioner Certification Course (Objective and Subjective) by Persistent University </li>
-      <li><a href="https://credentials.databricks.com/e925faa6-bafe-495a-b958-fe304e1c6a5a#gs.6uolv9" target="_blank" class="certification-link">Databricks Accredited Generative AI Fundamentals </li>
-      <li><a href="https://www.linkedin.com/learning/certificates/df17c9bce1cfb06d0fe107b4770be4af60982acb2516d4b259592472eb9e987e?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_certifications_details%3BJ1klDN4SR%2BKLOJwE%2Fp7icA%3D%3D" target="_blank" class="certification-link">Career Essentials in Generative AI by Microsoft and LinkedIn</li>
-      <li><a href="https://credentials.databricks.com/b9571f7e-d5ba-466f-8b2e-de8fb8513771" target="_blank" class="certification-link">Databricks Lakehouse Machine Learning Associate</li>
-      <li><a href="https://media.licdn.com/dms/document/media/v2/D4D2DAQF44wtUCqtjig/profile-treasury-document-pdf-analyzed/profile-treasury-document-pdf-analyzed/0/1699195144241?e=1735171200&v=beta&t=Q-Q05mvIWPstqxQCZ3u015hSOIZMVO91JuVvSm1mMDY" target="_blank" class="certification-link">Participated in Semicolons 2023, Annual Global Hackathon of Persistent Systems</li>
-      <li><a href="https://credentials.databricks.com/91432e99-8348-4d0c-860f-2479d7191690" target="_blank" class="certification-link">Fundamentals of the Databricks Lakehouse Platform Accreditation</li>
-      <li><a href="https://udemy-certificate.s3.amazonaws.com/pdf/UC-eb3ca838-055e-496e-b36f-1e434a005547.pdf" target="_blank" class="certification-link">Deployment of Machine Learning Models by Udemy</li>
-      <li><a href="https://www.ijsr.net/archive/v9i11/SR201104153250.pdf" target="_blank" class="certification-link">Paper publication “Artificial Intelligence for Hiring” in IJSR</li>
-      <li><a href="https://www.iabac.org/verify-certificate?certNum=IAB1120171554" target="_blank" class="certification-link">Certified Data Scientist & Data Science Foundation by IABAC, Amsterdam</li>
-      <li><a href="https://www.coursera.org/account/accomplishments/specialization/UVPJJGQFXFWX" target="_blank" class="certification-link">Deep Learning Specialization by Coursera and deeplearning.ai on Coursera.org</li>
-      <li><a href="https://media.licdn.com/dms/document/media/v2/D4D2DAQGaLjKN5tZmaQ/profile-treasury-document-pdf-analyzed/profile-treasury-document-pdf-analyzed/0/1699195767898?e=1735171200&v=beta&t=UZjb1dq7AQkofs_tG0r0fnbUFgD7I_d4IGhmkTw-1as" target="_blank" class="certification-link">Certified Data Scientist course completion certificate by DataMites, Bengaluru</li>
-      <li><a href="https://www.journalcra.com/sites/default/files/issue-pdf/23209.pdf" target="_blank" class="certification-link">Paper publication “Parallelization of backpropagation algorithm & Benchmarking” in IJCR</li>
-      <li><a href="https://media.licdn.com/dms/document/media/v2/D4D2DAQFNbAu_xR0yYA/profile-treasury-document-pdf-analyzed/profile-treasury-document-pdf-analyzed/0/1734183723457?e=1735171200&v=beta&t=YoJxxiIfZcw4xOWflO0AftOhiEKmFuz1DSR_ytPnfr4" target="_blank" class="certification-link">Paper presentation on “Backpropagation Algorithm & use of OpenMP in ML” in International Workshop on IOT & TV White Spaces</li>
-                                                  
-      </ol>
-    <a href="index.html">Back to Home</a>
-  </div>
+    <div class="container">
+        <h1>Certifications</h1>
+        <ol>
+            <li><a href="https://udemy-certificate.s3.amazonaws.com/pdf/UC-91226f48-8ecf-4ed2-a005-c0dcc96dd689.pdf" target="_blank" class="certification-link">Automate the Boring Stuff with Python Programming by Udemy</a></li>
+            <li><a href="https://udemy-certificate.s3.amazonaws.com/pdf/UC-a5f18bed-4ed0-4d07-bfb6-7b07b4c4f82b.pdf" target="_blank" class="certification-link">Complete Python Bootcamp 2024: Zero to Expert in Python by Udemy</a></li>
+            <li><a href="https://udemy-certificate.s3.amazonaws.com/pdf/UC-bc99ad8c-fffb-4390-b92d-78b788c5c250.pdf" target="_blank" class="certification-link">AWS SageMaker Practical for Beginners Build 6 Projects by Udemy</a></li>
+            <li><a href="https://udemy-certificate.s3.amazonaws.com/pdf/UC-20769ca0-aece-40bd-bd63-f0d30c101628.pdf" target="_blank" class="certification-link">MongoDB – The Complete Developer’s Guide 2024 by Udemy</a></li>
+            <li><a href="https://udemy-certificate.s3.amazonaws.com/pdf/UC-2feeee62-219c-4609-b9f5-8ecfaf056035.pdf" target="_blank" class="certification-link">Complete Tensorflow2 and Keras Deep Learning Bootcamp by Udemy</a></li>
+            <li><a href="https://udemy-certificate.s3.amazonaws.com/pdf/UC-7a651839-01a1-4e13-aed1-668d969adde4.pdf" target="_blank" class="certification-link">Taming Big Data with Apache Spark and Python – Hands-on by Udemy</a></li>
+            <li><a href="https://udemy-certificate.s3.amazonaws.com/pdf/UC-59b333b5-eadd-4e41-a7e0-c7e3201e838f.pdf" target="_blank" class="certification-link">Natural Language Processing with Python by Udemy</a></li>
+            <li><a href="https://udemy-certificate.s3.amazonaws.com/pdf/UC-6bbeada0-8dbb-4dbf-80eb-65e29fae0fa5.pdf" target="_blank" class="certification-link">Natural Language Processing with Transformers in Python by Udemy</a></li>
+            <li><a href="https://udemy-certificate.s3.amazonaws.com/pdf/UC-0e0ea112-2471-475b-8c7c-ff1f8507d2e3.pdf" target="_blank" class="certification-link">LangChain with Python Bootcamp by Udemy</a></li>
+            <li><a href="https://udemy-certificate.s3.amazonaws.com/pdf/UC-2c76bcb1-e4f1-4c8c-af71-df7d58c1d5b1.pdf" target="_blank" class="certification-link">REST APIs with Flask and Python in 2024 by Udemy</a></li>
+            <li><a href="https://udemy-certificate.s3.amazonaws.com/pdf/UC-e6d62cc4-3154-4e1d-a6bf-e898ba4add6f.pdf" target="_blank" class="certification-link">Python for Data Science and Machine Learning Bootcamp by Udemy</a></li>
+            <li><a href="https://udemy-certificate.s3.amazonaws.com/pdf/UC-3da141f4-e0fa-4943-9baf-f51655ed0ab3.pdf" target="_blank" class="certification-link">Complete Data Science, Machine Learning, DL, NLP Bootcamp by Udemy</a></li>
+            <li><a href="https://udemy-certificate.s3.amazonaws.com/pdf/UC-cacb0193-592b-4662-82c9-f1b6df63fcfc.pdf" target="_blank" class="certification-link">Git for Geeks: Quick Git Training for Developers by Udemy</a></li>
+            <li><a href="https://udemy-certificate.s3.amazonaws.com/pdf/UC-b7c719f4-d32e-4dff-aace-cdad9597cf01.pdf" target="_blank" class="certification-link">Amazon Bedrock & AWS Generative AI [Beginner to Advanced] by Udemy</a></li>
+            <li><a href="https://udemy-certificate.s3.amazonaws.com/pdf/UC-f68c504e-f6bc-480f-a6e1-239b0bf67cbe.pdf" target="_blank" class="certification-link">Generative AI: Beginner to Pro with OpenAI & Azure OpenAI  by Udemy</a></li>
+            <li><a href="https://udemy-certificate.s3.amazonaws.com/pdf/UC-c8f62eb7-0bb9-4753-ba30-bc3d1bfb4b67.pdf" target="_blank" class="certification-link">LangChain- Develop LLM powered applications with LangChain by Udemy</a></li>
+            <li><a href="https://media.licdn.com/dms/document/media/v2/D4D2DAQFUBiypauGjQQ/profile-treasury-document-pdf-analyzed/profile-treasury-document-pdf-analyzed/0/1714662952705?e=1735171200&v=beta&t=3CcipYdgTPDRlCLWZI2RAOwWiCKgzTUgCiDR6u-7bEs" target="_blank" class="certification-link">Generative AI for Practitioner Certification Course (Objective and Subjective) by Persistent University</a></li>
+            <li><a href="https://credentials.databricks.com/e925faa6-bafe-495a-b958-fe304e1c6a5a#gs.6uolv9" target="_blank" class="certification-link">Databricks Accredited Generative AI Fundamentals</a></li>
+            <li><a href="https://www.linkedin.com/learning/certificates/df17c9bce1cfb06d0fe107b4770be4af60982acb2516d4b259592472eb9e987e?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_certifications_details%3BJ1klDN4SR%2BKLOJwE%2Fp7icA%3D%3D" target="_blank" class="certification-link">Career Essentials in Generative AI by Microsoft and LinkedIn</a></li>
+            <li><a href="https://credentials.databricks.com/b9571f7e-d5ba-466f-8b2e-de8fb8513771" target="_blank" class="certification-link">Databricks Lakehouse Machine Learning Associate</a></li>
+            <li><a href="https://media.licdn.com/dms/document/media/v2/D4D2DAQF44wtUCqtjig/profile-treasury-document-pdf-analyzed/profile-treasury-document-pdf-analyzed/0/1699195144241?e=1735171200&v=beta&t=Q-Q05mvIWPstqxQCZ3u015hSOIZMVO91JuVvSm1mMDY" target="_blank" class="certification-link">Participated in Semicolons 2023, Annual Global Hackathon of Persistent Systems</a></li>
+            <li><a href="https://credentials.databricks.com/91432e99-8348-4d0c-860f-2479d7191690" target="_blank" class="certification-link">Fundamentals of the Databricks Lakehouse Platform Accreditation</a></li>
+            <li><a href="https://udemy-certificate.s3.amazonaws.com/pdf/UC-eb3ca838-055e-496e-b36f-1e434a005547.pdf" target="_blank" class="certification-link">Deployment of Machine Learning Models by Udemy</a></li>
+            <li><a href="https://www.ijsr.net/archive/v9i11/SR201104153250.pdf" target="_blank" class="certification-link">Paper publication “Artificial Intelligence for Hiring” in IJSR</a></li>
+            <li><a href="https://www.iabac.org/verify-certificate?certNum=IAB1120171554" target="_blank" class="certification-link">Certified Data Scientist & Data Science Foundation by IABAC, Amsterdam</a></li>
+            <li><a href="https://www.coursera.org/account/accomplishments/specialization/UVPJJGQFXFWX" target="_blank" class="certification-link">Deep Learning Specialization by Coursera and deeplearning.ai on Coursera.org</a></li>
+            <li><a href="https://media.licdn.com/dms/document/media/v2/D4D2DAQGaLjKN5tZmaQ/profile-treasury-document-pdf-analyzed/profile-treasury-document-pdf-analyzed/0/1699195767898?e=1735171200&v=beta&t=UZjb1dq7AQkofs_tG0r0fnbUFgD7I_d4IGhmkTw-1as" target="_blank" class="certification-link">Certified Data Scientist course completion certificate by DataMites, Bengaluru</a></li>
+            <li><a href="https://www.journalcra.com/sites/default/files/issue-pdf/23209.pdf" target="_blank" class="certification-link">Paper publication “Parallelization of backpropagation algorithm & Benchmarking” in IJCR</a></li>
+            <li><a href="https://media.licdn.com/dms/document/media/v2/D4D2DAQFNbAu_xR0yYA/profile-treasury-document-pdf-analyzed/profile-treasury-document-pdf-analyzed/0/1734183723457?e=1735171200&v=beta&t=YoJxxiIfZcw4xOWflO0AftOhiEKmFuz1DSR_ytPnfr4" target="_blank" class="certification-link">Paper presentation on “Backpropagation Algorithm & use of OpenMP in ML” in International Workshop on IOT & TV White Spaces</a></li>
+        </ol>
+        <div class="back-button">
+            <a href="index.html">Back to Home</a>
+        </div>
+    </div>
 </body>
 </html>

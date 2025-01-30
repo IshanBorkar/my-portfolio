@@ -1,483 +1,302 @@
 <!DOCTYPE html>
-
-<html>
-
+<html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-zR2Th8y/Q5T3GT+7Q4y291j8uZuIVcYZACsbH5ZReK1G5u9GV6ozqF7QO7PDi9T8Inj+A489aQFzD3/2e+N/0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        body {
+            background-color: purple;
+            background-image: url("5651981.jpg");
+            font-family: Arial, sans-serif;
+            margin: 8px;
+        }
 
-  <title> My Portfolio </title>
+        .container {
+            text-align: center;
+            padding: 50px;
+            max-width: 600px;
+            margin: 0 auto;
+            background-color: #4cadac;
+            border-radius: 10px;
+        }
 
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-zR2Th8y/Q5T3GT+7Q4y291j8uZuIVcYZACsbH5ZReK1G5u9GV6ozqF7QO7PDi9T8Inj+A489aQFzD3/2e+N/0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        /* Section styles */
+        section {
+            margin-bottom: 20px;
+        }
 
-  <style>
+        h1 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
 
-      body {
-      background-color: purple;
-      background-image: url("5651981.jpg");
-      font-family: Arial, sans-serif;
-      margin: 0;
-    }
+        .contact-info {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            margin-bottom: 20px;
+        }
 
-    .container {
-      text-align: center;
-      padding: 50px;
-      max-width: 600px;
-      margin: 0 auto;
-      background-color: #4cadac;
-      border-radius: 10px;
-    }
+        .contact-info a {
+            color: #007bff;
+            text-decoration: none;
+            margin-right: 10px;
+        }
 
-    /* Section styles */
-    section {
-      margin-bottom: 20px;
-    }
+        .contact-info a:hover {
+            color: #0056b3;
+        }
 
-    h1 {
-      text-align: center;
-      margin-bottom: 20px;
-    }
+        .contact-info i {
+            font-size: 20px;
+            margin-right: 5px;
+        }
 
-    .contact-info {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: space-between;
-      margin-bottom: 20px;
-    }
+        .show-skills {
+            cursor: pointer;
+            text-align: center;
+            padding: 10px 20px;
+            border-radius: 5px;
+            background-color: #b3cf2b;
+            display: block;
+            margin: 10px auto;
+        }
 
-    .contact-info a {
-      color: #007bff;
-      text-decoration: none;
-      margin-right: 10px;
-    }
+        .show-skills:hover {
+            background-color: #d9c125;
+        }
 
-    .contact-info a:hover {
-      color: #0056b3;
-    }
+        .key-skills {
+            display: none; /* Initially hidden */
+        }
 
-    .contact-info i {
-      font-size: 20px;
-      margin-right: 5px;
-    }
+        .key-skills h2 {
+            text-align: center;
+            margin-bottom: 15px;
+        }
 
-    .show-skills {
-      cursor: pointer;
-      text-align: center;
-      padding: 10px 20px;
-      border-radius: 5px;
-      background-color: #b3cf2b;
-      display: block;
-      margin: 10px auto;
-    }
+        .key-skills ul {
+            list-style: none;
+            padding-left: 20px;
+        }
 
-    .show-skills:hover {
-      background-color: #d9c125;
-    }
+        .key-skills li {
+            margin-bottom: 5px;
+        }
 
-    .key-skills {
-      display: none; /* Initially hidden */
-    }
+        /* Link and Button styles */
+        .container a,
+        .container button {
+            display: inline-block;
+            padding: 10px 20px;
+            border-radius: 5px;
+            margin: 10px auto;
+            text-align: center;
+        }
 
-    .key-skills h2 {
-      text-align: center;
-      margin-bottom: 15px;
-    }
+        .container a {
+            background-color: #007bff;
+            color: white;
+            text-decoration: none;
+        }
 
-    .key-skills ul {
-      list-style: none;
-      padding-left: 20px;
-    }
+        .container a:hover {
+            background-color: #0056b3;
+        }
 
-    .key-skills li {
-      margin-bottom: 5px;
-    }
+        .container button {
+            background-color: #0056b3;
+            border: none;
+            color: white;
+        }
 
-    /* Link and Button styles */
-    .container a,
-    .container button {
-      display: inline-block;
-      padding: 10px 20px;
-      border-radius: 5px;
-      margin: 10px auto;
-      text-align: center;
-    }
+        .container button:hover {
+            background-color: #004494;
+        }
 
-    .container a {
-      background-color: #007bff;
-      color: white;
-      text-decoration: none;
-    }
-
-    .container a:hover {
-      background-color: #0056b3;
-    }
-
-    .container button {
-      background-color: #0056b3;
-      border: none;
-    }
-
-    .container button:hover {
-      background-color: #0056b3;
-    }
-    .key-skills {
-
-      display: none; /* Initially hidden */
-
-    }
-
-
-
-    .show-skills {
-
-      cursor: pointer;
-
-    }
-
-  </style>
-
-  <script>
-
-    function toggleSkills() {
-
-      var skillsSection = document.getElementById("key-skills");
-
-      if (skillsSection.style.display === "none") {
-
-        skillsSection.style.display = "block";
-
-      } else {
-
-        skillsSection.style.display = "none";
-
-      }
-
-    }
-
-  </script>
-
+        footer {
+            text-align: center;
+            margin-top: 20px;
+        }
+    </style>
+    <script>
+        function toggleSkills() {
+            var skillsSection = document.getElementById("key-skills");
+            if (skillsSection.style.display === "none") {
+                skillsSection.style.display = "block";
+            } else {
+                skillsSection.style.display = "none";
+            }
+        }
+    </script>
 </head>
-
 <body>
-
-  <div class="container">
-
-    <h1>Ishan P. Borker</h1>
-
-    <img src="Passport1.jpg" alt="Passport_Size_Photo" width="200" height="200">
-
-
-
-    <section class="contact-info">
-
-      <a href="mailto:ishan123ppp@gmail.com"><i class="fa-solid fa-envelope"></i> Email</a>
-
-      <a href="tel:+91-8600313943"><i class="fa-solid fa-phone"></i>Contact </a>
-
-      <a href="https://www.linkedin.com/in/ishan-p-borker-2b323364/"><i class="fa-brands fa-linkedin"></i> LinkedIn</a>
-
-      <a href="https://github.com/IshanBorkar/"><i class="fa-brands fa-github"></i> GitHub</a>
-
-      <a href="https://www.instagram.com/ishan_borker/?next=%2F"><i class="fa-brands fa-instagram"></i> Instagram</a>
-
-      <a href="https://www.facebook.com/profile.php?id=100015072364257"><i class="fa-brands fa-facebook"></i> Facebook</a>
-
-      <a href="https://x.com/IshanBorkar"><i class="fa-solid fa-x"></i> X</a>
-
-      <a href="https://in.pinterest.com/ishan123ppp/"><i class="fa-brands fa-pinterest"></i> Pinterest</a>
-
-    </section>
-
-
-
-    <section>
-
-      <button class="show-skills" onclick="toggleSkills()"><i class="fa-solid fa-button"></i>Key Skills</button>
-
-    </section>
-
-
-
-    <section id="key-skills" class="key-skills">
-
-      <h2>Key Skills</h2>
-
-      <h3>Generative AI</h3>
-
-      <ul>
-
-        <li>Prompt Engineering</li>
-
-        <li>RAG</li>
-
-        <li>Text Generation</li>
-
-        <li>LangChain</li>
-
-        <li>LLM</li>
-
-        <li>AWS Chatbot</li>
-
-        <li>Amazon Bedrock</li>
-
-        <li>BrowserBase</li>
-
-        <li>Perlexity.AI</li>
-
-      </ul>
-
-
-
-      <h3>Machine Learning</h3>
-
-      <ul>
-
-        <li>Supervised Learning</li>
-
-        <li>Unsupervised Learning</li>
-
-        <li>Reinforcement Learning</li>
-
-        <li>Python</li>
-
-        <li>FastAPI</li>
-
-        <li>Data Science</li>
-
-        <li>Computer Vision</li>
-
-        <li>NLP</li>
-
-        <li>Linear and Logistic Regression</li>
-
-        <li>Clustering algorithms</li>
-
-        <li>Decision Trees</li>
-
-        <li>Neural Networks</li>
-
-        <li>Feature engineering</li>
-
-        <li>Statistical analysis</li>
-
-      </ul>
-
-
-
-      <h3>Machine Learning Libraries</h3>
-
-      <ul>
-
-        <li>Tensorflow</li>
-
-        <li>Keras</li>
-
-        <li>SpaCy</li>
-
-        <li>PyPDF</li>
-
-        <li>PyLDAVis</li>
-
-        <li>BERTopic</li>
-
-        <li>NLTK</li>
-
-
-
-      </ul>
-
-
-
-      <h3>Algorithms</h3>
-
-      <ul>
-
-         <li>Classification</li>
-
-         <li>Regression</li>
-
-         <li>Clustering</li>
-
-         <li>Time series forecasting</li>
-
-         <li>Yolov3</li>
-
-         <li>Yolov4</li>
-
-         <li>OpenCV</li>
-
-         <li>Mask R-CNN</li>
-
-         <li>Faster R-CNN</li>
-
-         <li>Named Entity Recognition</li>
-
-         <li>Relationship Extraction</li>
-
-         <li>Topic Modelling </li>
-
-         <li>Latent Dirichlet Allocation</li>
-
-         <li>Fasttext </li>
-
-      </ul>
-
-    
-
-      <h3>Other Skills</h3>
-
-      <ul>
-
-        <li>Actionable Web Technologies</li>
-
-        <li>JSON</li>
-
-        <li>HTML</li>
-
-        <li>JS</li>
-
-        <li>PHP </li>
-
-        <li>Curl commands</li>
-
-        <li>Unix/Linux commands</li>
-
-        <li>Golang</li>
-
-
-
-      </ul>
-
-
-
-      <h3>Database/BI Tools</h3>
-
-      <ul>
-
-        <li>SQL</li>
-
-        <li>MySQL</li>
-
-        <li>Navicat</li>
-
-        <li>Tableau</li>
-
-        <li>Power BI</li>
-
-        <li>GNU-Plot</li>
-
-        <li>SpagoBI</li>
-
-      </ul>
-
-
-
-      <h3>Python Libraries</h3>
-
-      <ul>
-
-        <li>NumPy</li>
-
-        <li>Pandas</li>
-
-        <li>Matplotlib</li>
-
-        <li>Seaborn</li>
-
-        <li>SciPy</li>
-
-        <li>Plotly-dash</li>
-
-        <li>Sci-kit learn</li>
-
-
-
-      </ul>
-
-
-
-      <h3>Tools/Environments</h3>
-
-      <ul>
-
-        <li>Jupyter Notebook</li>
-
-        <li>Google Colab</li>
-
-        <li>Kaggle Notebook </li>
-
-        <li>GitHub</li>
-
-        <li>Docker</li>
-
-        <li>EMS</li>
-
-        <li>Crosswork Workflow Manager (CWM)</li>
-
-        <li>Network Service Orchestration (NSO)</li>
-
-        <li>Lux</li>
-
-        <li>VSCode</li>
-
-        <li>PyCharm</li>
-
-        <li>Spyder </li>
-
-        <li>Amazon EC2</li>
-
-        <li>Azure ML Studio </li>
-
-        <li> POSTMAN </li>
-
-        <li>Swagger UI</li>
-
-        <li>GitHub Copilot </li>
-
-        <li>AWS Code Whisperer</li>
-
-        <li>SonarQube</li>
-
-      </ul>
-
-
-      <h3> OS </h3>
-
-      <ul>
-
-        <li>Windows</li>
-
-        <li>Linux</li>
-
-        <li>macOS</li>
-      </ul>
-    </section>
-
-    <section>
-
-      <a href="https://github.com/IshanBorkar/ishanborker.github.io/blob/main/IshanBorker_Resume.pdf" target="_blank"><i class="fa-solid fa-file-pdf"></i> Resume</a>
-
-    </section>
-
-
-
-    <section>
-
-      <button onclick="window.location.href='about_me.html'"><i class="fa-solid fa-profile"></i>About Me</button>
-
-    </section>
+    <div class="container">
+        <h1>Ishan P. Borker</h1>
+        <img src="Passport1.jpg" alt="Passport_Size_Photo" width="200" height="200">
+
+        <section class="contact-info">
+            <a href="mailto:ishan123ppp@gmail.com"><i class="fa-solid fa-envelope"></i> Email</a>
+            <a href="tel:+91-8600313943"><i class="fa-solid fa-phone"></i> Contact</a>
+            <a href="https://www.linkedin.com/in/ishan-p-borker-2b323364/"><i class="fa-brands fa-linkedin"></i> LinkedIn</a>
+            <a href="https://github.com/IshanBorkar/"><i class="fa-brands fa-github"></i> GitHub</a>
+            <a href="https://www.instagram.com/ishan_borker/?next=%2F"><i class="fa-brands fa-instagram"></i> Instagram</a>
+            <a href="https://www.facebook.com/profile.php?id=100015072364257"><i class="fa-brands fa-facebook"></i> Facebook</a>
+            <a href="https://x.com/IshanBorkar"><i class="fa-solid fa-x"></i> X</a>
+            <a href="https://in.pinterest.com/ishan123ppp/"><i class="fa-brands fa-pinterest"></i> Pinterest</a>
+        </section>
 
         <section>
+            <button class="show-skills" onclick="toggleSkills()"><i class="fa-solid fa-button"></i> Key Skills</button>
+        </section>
 
-      <button onclick="window.location.href='certifications.html'"><i class="fa-solid fa-certification">Certifications</button>
+        <section id="key-skills" class="key-skills">
+            <h2>Key Skills</h2>
+            <h3>Generative AI</h3>
+            <ul>
+                <li>Prompt Engineering</li>
+                <li>RAG</li>
+                <li>Text Generation</li>
+                <li>LangChain</li>
+                <li>LLM</li>
+                <li>AWS Chatbot</li>
+                <li>Amazon Bedrock</li>
+                <li>BrowserBase</li>
+                <li>Perlexity.AI</li>
+            </ul>
 
-    </section>
-       <section>
+            <h3>Machine Learning</h3>
+            <ul>
+                <li>Supervised Learning</li>
+                <li>Unsupervised Learning</li>
+                <li>Reinforcement Learning</li>
+                <li>Python</li>
+                <li>FastAPI</li>
+                <li>Data Science</li>
+                <li>Computer Vision</li>
+                <li>NLP</li>
+                <li>Linear and Logistic Regression</li>
+                <li>Clustering algorithms</li>
+                <li>Decision Trees</li>
+                <li>Neural Networks</li>
+                <li>Feature engineering</li>
+                <li>Statistical analysis</li>
+            </ul>
 
-      <button onclick="window.location.href='education.html'"><i class="fa-solid fa-education">Education</button>
-      </section>
-  </div>
-<footer>
-    <p>&copy; Ishan Borker 2024.</p>
-</footer>
+            <h3>Machine Learning Libraries</h3>
+            <ul>
+                <li>Tensorflow</li>
+                <li>Keras</li>
+                <li>SpaCy</li>
+                <li>PyPDF</li>
+                <li>PyLDAVis</li>
+                <li>BERTopic</li>
+                <li>NLTK</li>
+            </ul>
+
+            <h3>Algorithms</h3>
+            <ul>
+                <li>Classification</li>
+                <li>Regression</li>
+                <li>Clustering</li>
+                <li>Time series forecasting</li>
+                <li>Yolov3</li>
+                <li>Yolov4</li>
+                <li>OpenCV</li>
+                <li>Mask R-CNN</li>
+                <li>Faster R-CNN</li>
+                <li>Named Entity Recognition</li>
+                <li>Relationship Extraction</li>
+                <li>Topic Modelling</li>
+                <li>Latent Dirichlet Allocation</li>
+                <li>Fasttext</li>
+            </ul>
+
+            <h3>Other Skills</h3>
+            <ul>
+                <li>Actionable Web Technologies</li>
+                <li>JSON</li>
+                <li>HTML</li>
+                <li>JS</li>
+                <li>PHP</li>
+                <li>Curl commands</li>
+                <li>Unix/Linux commands</li>
+                <li>Golang</li>
+            </ul>
+
+            <h3>Database/BI Tools</h3>
+            <ul>
+                <li>SQL</li>
+                <li>MySQL</li>
+                <li>Navicat</li>
+                <li>Tableau</li>
+                <li>Power BI</li>
+                <li>GNU-Plot</li>
+                <li>SpagoBI</li>
+            </ul>
+
+            <h3>Python Libraries</h3>
+            <ul>
+                <li>NumPy</li>
+                <li>Pandas</li>
+                <li>Matplotlib</li>
+                <li>Seaborn</li>
+                <li>SciPy</li>
+                <li>Plotly-dash</li>
+                <li>Sci-kit learn</li>
+            </ul>
+
+            <h3>Tools/Environments</h3>
+            <ul>
+                <li>Jupyter Notebook</li>
+                <li>Google Colab</li>
+                <li>Kaggle Notebook</li>
+                <li>GitHub</li>
+                <li>Docker</li>
+                <li>EMS</li>
+                <li>Crosswork Workflow Manager (CWM)</li>
+                <li>Network Service Orchestration (NSO)</li>
+                <li>Lux</li>
+                <li>VSCode</li>
+                <li>PyCharm</li>
+                <li>Spyder</li>
+                <li>Amazon EC2</li>
+                <li>Azure ML Studio</li>
+                <li>POSTMAN</li>
+                <li>Swagger UI</li>
+                <li>GitHub Copilot</li>
+                <li>AWS Code Whisperer</li>
+                <li>SonarQube</li>
+            </ul>
+
+            <h3>OS</h3>
+            <ul>
+                <li>Windows</li>
+                <li>Linux</li>
+                <li>macOS</li>
+            </ul>
+        </section>
+
+        <section>
+            <a href="https://github.com/IshanBorkar/ishanborker.github.io/blob/main/IshanBorker_Resume.pdf" target="_blank"><i class="fa-solid fa-file-pdf"></i> Resume</a>
+        </section>
+
+        <section>
+            <button onclick="window.location.href='about_me.html'"><i class="fa-solid fa-profile"></i> About Me</button>
+        </section>
+
+        <section>
+            <button onclick="window.location.href='certifications.html'"><i class="fa-solid fa-certification"></i> Certifications</button>
+        </section>
+
+        <section>
+            <button onclick="window.location.href='education.html'"><i class="fa-solid fa-education"></i> Education</button>
+        </section>
+    </div>
+    <footer>
+        <p>&copy; Ishan Borker 2024.</p>
+    </footer>
 </body>
-
 </html>
