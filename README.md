@@ -72,7 +72,9 @@ Integration of Amazon Bedrock Agent and AWS Chatbot with Microsoft Teams: Changi
 
 Actionable Web Technologies: Creating a tabular analysis for evaluating different actionable web technology tools like BrowserBase, Maxun based on future scalability, and browser dependencies. Python code to enter the URL and download the relevant PDFs, code to connect the LLM model to Amazon Bedrock, and then using BrowserBase packages like Playwright and its APIs to send the URL to download the relevant PDFs. Working on stealth mode by modifying the existing code to bypass the captcha or login methods and capture the link, file name, and other metadata. running the same code on the top 5 carriers being implemented under CDD
 
-Capabilities of Perplexity.AI: Working on improving prompt caching, dynamic updates, response accuracy, cache persistence and query handling using perplexity.ai, retrieving the response format obtained from perplexity API, and checking for the separation of the citations from the text. Testing feasibility Perplexity in BRP Copilot UAT and potential business benefits, exploring mosaic ai
+Capabilities of Perplexity.AI: Working on improving prompt caching, dynamic updates, response accuracy, cache persistence and query handling using perplexity.ai, retrieving the response format obtained from perplexity API, and checking for the separation of the citations from the text. Testing feasibility Perplexity in BRP Copilot UAT and potential business benefits
+
+Mosaic AI Model Fine-Tuning: Performing model fine-tuning on RAG Component Classification and Extraction dataset from S3 bucket using Databricks Notebook, running the model fine-tuning job using Amazon Bedrock 
 
 ●	**CISCO NSO Engineering (Client: CISCO)**: Worked on EMS adapter activity support for different workflows like distribute, activate, commit image on IOS-XE device, working on API hardening: adding error handling conditions to the EMS adapter Go code, validating the inputs for SWIM APIs, performed code refactoring on it, performed add image, activate and commit using install method for IOS-XE device, updating the EMS adapter to be compliant with CW infrastructure by refactoring the code using Authentication, No Authentication,  running different EMS APIs inside cw-admin SVM Infrastructure like import, activate, distribute and commit image using curl commands and updating the wiki page, worked on the unit test cases for the refactored codes, developed POC for Go client for fetching the CCO catalog and SMU details for each record in catalog, fetched multiple devices inside the jobsummary EMS Code
 
@@ -164,6 +166,10 @@ Capabilities of Perplexity.AI: Working on improving prompt caching, dynamic upda
 ● SSC at GOA BOARD, 2008 - 2009, 82.17%
 
 # CERTIFICATIONS
+
+●	Python ML Competency Level - 3 Certification by Persistent University
+
+●	Python ML Competency Level - 2 Certification by Persistent University
 
 ●	Automate the Boring Stuff with Python Programming by Udemy
 
