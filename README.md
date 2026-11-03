@@ -15,20 +15,16 @@
  DOB: 11/08/1993
   
   # About Me
-I have a total experience of more than 7.5 years in software development of various platforms like Python, data science, machine learning, natural language processing (NLP), research and development, C++, FastAPI, MySQL, Tableau, Network Service Orchestration. 
+Accomplished software development professional with over 9.16 years of experience across diverse platforms, including Generative AI, Data Science, Machine Learning, NLP, Computer Vision, and Network Service Orchestration. 
 
-It includes 6.5 years of Machine Learning experience plus 7.5 years of business experience.
+Demonstrated expertise in Python, C++, FastAPI, MySQL, Tableau, Golang, Docker, Linux/Unix, POSTMAN, and JSON scripting. Proven track record in analyzing complex requirements, architecting robust solutions, and delivering end-to-end applications from design to deployment.
 
-Part of the role includes analyzing requirements, architecting the entire application, providing end-to-end solutions to customers from solution architecture, developing, implementing the application, and reviewing using technologies like POSTMAN, Docker, Linux/Unix, JSON scripting, Golang and design to deployment
+With 9.16 years of specialized experience in machine learning, I excel at studying client requirements, recommending optimal algorithms, performing advanced feature engineering, and creating insightful visualizations. 
 
-I have an experience studying client requirements and recommending algorithms to be used. 
+My experience spans the entire project lifecycle, from pre-sales proposals and requirements gathering to system design, implementation, technical documentation, and customer engagement.
 
-Also, in-depth experience in handling feature engineering and creating visualizations.
-
-I have also worked in end-to-end delivery of project from the proposal stage, requirements gathering, assisting in design, implementation, technical documentation, excellent understanding of customer engagement and delivery.
-
-I am highly adaptable and dedicated to solving business problems and would like to enhance my career in AI and effectively apply my technical and management skills in diverse portfolios, Flexible, team player, keen to implement new technologies as per customer needs, ready to take up challenging roles.
-
+Highly adaptable and results-driven, I am dedicated to solving business challenges, embracing new technologies, and thriving in collaborative, fast-paced environments. I am eager to leverage my technical and management expertise to further my career in AI, contributing effectively to diverse and challenging portfolios.
+  
 # Skills
 
 ## 1. Generative AI: 
